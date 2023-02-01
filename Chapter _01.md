@@ -8,14 +8,14 @@
 ## Giải thích về protocol của HTTP/HTTPS
 * Protocol là một giao thức mạng, tập hợp các quy tắc đã được thiết lập với nhiệm vụ hàng đầu là định dạng, truyền và nhận dữ liệu. Tất cả nhiệm vụ này sẽ được thực hiện sao cho các thiết bị mạng máy tính (Từ server, router đến end point) có thể giao tiếp rõ ràng với nhau. Dù có sự khác biệt về cơ sở hạ tầng, thiết kế hay các tiêu chuẩn cơ bản thì giao thức Protocol vẫn sẽ hỗ trợ tuyệt đối để việc giao tiếp có thể diễn ra tốt nhất.
 * Cơ chế hoạt động của giao thức Protocol: Các giao thức mạng thường phân chia các quy trình lớn thành nhiều phần nhỏ tương ứng với chức năng, nhiệm vụ trên tất cả cấp độ mạng. Điều này còn được biết đến là mô hình OSI được sử dụng trong mô hình tiêu chuẩn. Như vậy, ta có thể hiểu rằng sẽ có một hoặc nhiều giao thức mạng để xử lý các hoạt động trong quá trình trao đổi, sâu hơn nữa là từng lớp mạng.
-    * Tầng 1: Physical Layer (Tầng vật lý), được sử dụng để truyền hoặc nhận các chuỗi bit từ các thiết bị vật lý
-    * Tầng 2: Data Link-Layer (Tầng liên kết dữ liệu), là tầng có khả năng tạo khung thông tin và kiểm soát mọi luồng tin, các lỗi có thể xảy ra trong tương lai
-    * Tầng 3: Network Layer (Tầng mạng), có nhiệm vụ đảm bảo mọi thông tin được trao đổi liên tục. Đồng thời, chọn đường đi, công nghệ chuyển mạch phù hợp nhất
-    * Tầng 4: Transport Layer (Tầng giao vận), hỗ trợ vận chuyển thông tin giữa các máy chủ và chịu toàn bộ trách nhiệm liên quan đến việc kiểm soát các luồng, các lỗi có thể xảy ra
-    * Tầng 5: Session Layer (Tầng phiên), đây là tầng thiết lập và có thể duy trì, đồng bộ hóa liên lạc giữa các thực thể. Không chỉ vậy, tầng 5 còn có chức năng loại bỏ các phiên truyền đi giữa các app
-    * Tầng 6: Presentation Layer (Tầng trình diễn), chịu trách nhiệm về việc chuyển đổi thông tin, dữ liệu theo nhu cầu của các ứng dụng
+    * Tầng 1: Physical Layer (Tầng vật lý), được sử dụng để truyền hoặc nhận các chuỗi bit từ các thiết bị vật lý.
+    * Tầng 2: Data Link-Layer (Tầng liên kết dữ liệu), là tầng có khả năng tạo khung thông tin và kiểm soát mọi luồng tin, các lỗi có thể xảy ra trong tương lai.
+    * Tầng 3: Network Layer (Tầng mạng), có nhiệm vụ đảm bảo mọi thông tin được trao đổi liên tục. Đồng thời, chọn đường đi, công nghệ chuyển mạch phù hợp nhất.
+    * Tầng 4: Transport Layer (Tầng giao vận), hỗ trợ vận chuyển thông tin giữa các máy chủ và chịu toàn bộ trách nhiệm liên quan đến việc kiểm soát các luồng, các lỗi có thể xảy ra.
+    * Tầng 5: Session Layer (Tầng phiên), đây là tầng thiết lập và có thể duy trì, đồng bộ hóa liên lạc giữa các thực thể. Không chỉ vậy, tầng 5 còn có chức năng loại bỏ các phiên truyền đi giữa các app.
+    * Tầng 6: Presentation Layer (Tầng trình diễn), chịu trách nhiệm về việc chuyển đổi thông tin, dữ liệu theo nhu cầu của các ứng dụng.
     * Tầng 7: Application Layer (Tầng ứng dụng), là tầng cuối cùng và cũng là tầng giúp người dùng giao tiếp trong môi trường mạng.
-* Chức năng cơ bản của giao thức Protocol 
+* Chức năng cơ bản của giao thức Protocol.
     * Phân đoạn và hợp nhất.
     * Điều khiển liên kết.
     * Giám sát.
